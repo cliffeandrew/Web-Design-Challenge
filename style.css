@@ -36,7 +36,7 @@ body {
   
   /* Styling the header, giving it a height, a background color, and some top padding */
   .header {
-    transform: rotate(10deg);
+    transform: rotate(1deg);
     transition: transform 0.9s ease-in;
     height: 300px;
     padding-top: 20px;
@@ -59,7 +59,7 @@ body {
   }
 
   .post_transform {
-    transform: rotate(350deg);
+    transform: rotate(359deg);
     transition: transform 0.9s ease-in;    
     margin-top: 50px;
     margin-right: 100px;
@@ -91,6 +91,22 @@ body {
     padding: 20px;
     color: #fff;
     background: deepskyblue;
+  }
+
+  .box-1 {
+    background: steelblue;
+  }
+  
+  .box-2 {
+    background: steelblue;
+  }
+  
+  .box-3 {
+    background: blue;
+  }
+  
+  .box-4 {
+    background: blue;
   }
   
   .margin-top-80 {
