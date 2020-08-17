@@ -7,30 +7,50 @@
 </head>
 
 <body>
+ <nav class="navbar">
+    <ul>
+      <strong><p>Data</p></strong>
+      <li>
+        <a href="index.html">Home</a>
+      </li>          
+    </ul>
+  </nav>
+  
   <!-- Headline -->
   <h1>Data</h1>
-  <!-- Image -->
-  <img src="WebVisualizations/Resources/cities.csv" alt="cities.csv" />
-  <br>
-  <br>
-  <hr>
-  <h2>Description</h2>
-  <p>When I was in France with the Army, one day I looked into my kit</p>
-  <br>
- <h3>Ordered list</h3>
-  <ol>
-    <li>Latitudes within +/-20 degrees of the equator generally have a Max temp of 60F to 85F</li>
-    <li>There are very few cities in the Southern Hemisphere below -50 Latitude</li>
-    <li>Virtually all Northern Hemisphere cities north of 40 Latitude have Max temps below 50F</li>
-    <li>Eat</li>
-  </ol>
+  
+  <div class="table-responsive">
+    <table class="table">
 
-  <!-- Unordered List (bullet pointed) -->
-  <h3>Key Points</h3>
-  <ul>
-    <li>Latitudes within +/-20 degrees of the equator generally have a Max temp of 60F to 85F</li>
-    <li>There are very few cities in the Southern Hemisphere below -50 Latitude</li>
-    <li>Virtually all Northern Hemisphere cities north of 40 Latitude have Max temps below 50F</li>
-  </ul>
- 
+      <table id="cities_df" class="table">
+         <thead>
+           <tr>
+             <th>City_ID</th>
+             <th>City</th>
+             <th>Cloudiness</th>
+             <th>Country</th>
+             <th>Date</th>
+             <th>Humidity</th>
+             <th>Lat</th>
+             <th>Lng</th>
+             <th>Max Temp</th>
+             <th>Wind Speed</th>
+           </tr>
+         </thead>
+         <tbody>
+
+         </tbody>
+       </table>
+    </table>
+  </div>
+
+
+  <div class="table-responsive">
+    <table class="table"> 
+      
+    </table>
+  </div>
+
+    
+</body> 
 </html>
